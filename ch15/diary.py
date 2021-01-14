@@ -1,3 +1,5 @@
+from app_base import Application
+
 class DiaryApp(Applicatoin):
     def __init__(self):
         super().__init()
@@ -20,3 +22,5 @@ class DiaryApp(Applicatoin):
     def main():
         app = DiaryApp()
         app.run()
+
+main()
